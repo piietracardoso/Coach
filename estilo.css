@@ -1,0 +1,39 @@
+body{
+    font-family: "Arial";
+    margin: 0; /*zerando a margem do corpo*/
+    padding: 0;/*Espaçamento/ zerando o*/
+    border: 0;/*borda/ zerando a*/
+}
+header{
+    background-color: #127544;/*cor do cabeçalho*/
+    padding: 25px;/*espaçamento*/
+}
+nav{
+    position: absolute;
+    right: 75px; /*zerando a distancia deles da direta, logo tudo irá para o maximo da direita da tela*/
+    top: 30px;/*Distancia do topo*/
+}
+.logo {
+    position: relative;
+    width: 100px; /*comprimento da area*/
+    margin: auto; /*margem automatica/ o navegador que estipulara*/
+    margin-left: 41%; /* Adiciona uma margem à esquerda de 10% */
+}
+.logo img {
+    width: 200px; /* Defina uma largura fixa para o logotipo */
+    height: auto; /* Mantenha a proporção da altura */
+}
+body {
+    background-color: rgba(165, 159, 159, 0.603); /* Cor cinza claro em valores RGB */
+}
+h2 {
+    margin-left: 50px; /* Ajusta a margem esquerda do h2 */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do texto */
+    text-decoration: underline dashed; /* Adiciona sublinhado pontilhado ao texto */
+}
+.linha-divisoria{
+    border: 1px solid;
+    color: #127544;
+}
+
+
